@@ -73,7 +73,7 @@ class GF_Field_DAF extends GF_Field_CreditCard {
 		$expiration_date = rgpost( 'input_' . $this->id . '_2' );
 		$security_code   = rgpost( 'input_' . $this->id . '_3' );
 
-		if ( $this->isRequired && ( empty( $card_number ) || empty( $security_code ) || empty( $expiration_date[0] ) || empty( $expiration_date[1] ) ) ) {
+		if ( $this->isRequired && ( empty( $card_number ) || ( apply_filters( 'gf_daf_cvv_required', false, $form ) && empty( $security_code ) ) || empty( $expiration_date[0] ) || empty( $expiration_date[1] ) ) ) {
 			$this->failed_validation  = true;
 			$this->validation_message = empty( $this->errorMessage ) ? esc_html__( 'Please enter your DAF card information.', 'gf-daf-field' ) : $this->errorMessage;
 		} elseif ( ! empty( $card_number ) ) {
