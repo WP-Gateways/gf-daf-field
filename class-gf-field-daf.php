@@ -78,7 +78,7 @@ class GF_Field_DAF extends GF_Field_CreditCard {
 			$this->validation_message = empty( $this->errorMessage ) ? esc_html__( 'Please enter your DAF card information.', 'gf-daf-field' ) : $this->errorMessage;
 		} elseif ( ! empty( $card_number ) ) {
 
-			if ( empty( $security_code ) ) {
+			if ( empty( $security_code ) && ( apply_filters( 'gf_daf_cvv_required', false, $form ) ) ) {
 				$this->failed_validation  = true;
 				$this->validation_message = esc_html__( "Please enter your card's security code.", 'gf-daf-field' );
 			} elseif ( ! self::is_valid_card_checksum( $card_number ) ) {
