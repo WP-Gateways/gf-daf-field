@@ -1,12 +1,12 @@
-=== GGravity Forms Donor-Advised Fund (DAF) Card Field Type ===
+=== Gravity Forms Donor-Advised Fund (DAF) Card Field Type ===
 Contributors: mohsinoffline
 Donate link: https://wpgateways.com/contact-us/send-payment/
-Tags: Gravity Forms DAF, DAF, eCheck, payment gateway, Gravity Forms, Gravity Forms payment gateway, payment forms
+Tags: Gravity Forms DAF, DAF, Donor-Advised Fund, payment gateway, Gravity Forms, Gravity Forms payment gateway, payment forms
 Plugin URI: https://wpgateways.com
 Author URI: https://wpgateways.com
 Requires at least: 4.0
-Tested up to: 5.9
-Stable tag: 1.0.2
+Tested up to: 6.6
+Stable tag: 1.0.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -33,7 +33,7 @@ The plugins currently compatible with the DAF field add-on are (more to be added
 
 1. [accept.blue Gateway For Gravity Forms (Advanced Version)](https://wpgateways.com/products/accept-blue-gateway-gravity-forms/).
 
-Visit the [plugin page](https://wpgateways.com/gravity-forms-daf-echeck-payments/) for more details. Contributors are welcome to send pull requests via [Bitbucket repository](https://bitbucket.org/gateways/gf-daf-field).
+Contributors are welcome to send pull requests via [Bitbucket repository](https://bitbucket.org/gateways/gf-daf-field).
 
 For custom integration with your WordPress website, please [contact us here](https://wpgateways.com/support/custom-payment-gateway-integration/).
 
@@ -41,12 +41,12 @@ Disclaimer: This plugin is not affiliated with or supported by Gravity Forms. Al
 
 == Installation ==
 
-1. Upload `gf-daf-field` folder/directory to the `/wp-content/plugins/` directory
+1. Upload `gf-daf-field` folder/directory to the `/wp-content/plugins/` directory.
 2. Activate the plugin (WordPress -> Plugins).
 3. Now go to the forms page (WordPress -> Forms) and create/edit a form.
 4. Find "DAF" type field under "Pricing Fields" section and setup condition and labels if required.
 5. Install a compatible payment gateway plugin (see above for current list).
-7. Follow the instructions therein on how to setup feeds that integrate with DAF type field.
+6. Follow the instructions therein on how to setup feeds that integrate with DAF type field.
 
 
 == Changelog ==
