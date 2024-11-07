@@ -1,8 +1,8 @@
-=== Gravity Forms DAF Field Type ===
+=== GGravity Forms Donor-Advised Fund (DAF) Card Field Type ===
 Contributors: mohsinoffline
 Donate link: https://wpgateways.com/contact-us/send-payment/
 Tags: Gravity Forms DAF, DAF, eCheck, payment gateway, Gravity Forms, Gravity Forms payment gateway, payment forms
-Plugin URI: https://wpgateways.com/gravity-forms-daf-echeck-payments/
+Plugin URI: https://wpgateways.com
 Author URI: https://wpgateways.com
 Requires at least: 4.0
 Tested up to: 5.9
@@ -15,11 +15,11 @@ This plugin enables you to add DAF field type to Gravity Forms.
 == Description ==
 
 
-At WP Gateways, we offer a much needed easy integration DAF (eCheck) payments via our DAF Field Type addon for [Gravity Forms](https://www.gravityforms.com/). This extension adds a new field type called “DAF” and lets you configure it just like the native Credit Card field type and is supported by other WP Gateways add-ons for Gravity Forms including Authorize.Net, USAePay and BluePay.
+At WP Gateways, we offer a much needed easy integration Donor-Advised Fund (DAF) payments via our DAF Field Type addon for [Gravity Forms](https://www.gravityforms.com/). This extension adds a new field type called “DAF” and lets you configure it just like the native Credit Card field type and is supported by other WP Gateways add-ons for Gravity Forms including accept.blue.
 
-Not only in the back-end but DAF (eCheck) addon for Gravity Forms adds an equally good looking field on the front end and blends with any WordPress theme without much of a problem.
+Not only in the back-end but Donor-Advised Fund (DAF) addon for Gravity Forms adds an equally good looking field on the front end and blends with any WordPress theme without much of a problem.
 
-The DAF (eCheck) addon for Gravity Forms plugin is available for free and is easy to integrate with more payment gateway addons. The list of existing gateway plugins that integrate DAF with Gravity Forms is provided below, and we will continue to make more of our plugins support DAF payments.
+The Donor-Advised Fund (DAF) addon for Gravity Forms plugin is available for free and is easy to integrate with more payment gateway addons. The list of existing gateway plugins that integrate DAF with Gravity Forms is provided below, and we will continue to make more of our plugins support DAF payments.
 
 
 **Requirements**
@@ -31,13 +31,7 @@ The DAF (eCheck) addon for Gravity Forms plugin is available for free and is eas
 -------
 The plugins currently compatible with the DAF field add-on are (more to be added later):
 
-1. [Authorize.Net Gateway For Gravity Forms (Advanced Version)](https://wpgateways.com/products/authorize-net-gateway-gravity-forms/).
-2. [USAePay Gateway For Gravity Forms (Advanced Version)](https://wpgateways.com/products/usaepay-gateway-gravity-forms/).
-3. [BluePay Gateway For Gravity Forms (Advanced Version)](https://wpgateways.com/products/bluepay-gateway-gravity-forms/).
-4. [NMI Gateway For Gravity Forms (Advanced Version)](https://wpgateways.com/products/network-merchants-nmi-gateway-gravity-forms/).
-5. [Cardknox Gateway For Gravity Forms (Advanced Version)](https://wpgateways.com/products/cardknox-gateway-gravity-forms/).
-6. [accept.blue Gateway For Gravity Forms (Advanced Version)](https://wpgateways.com/products/accept-blue-gateway-gravity-forms/).
-7. [iATS Payments Gateway For Gravity Forms (Advanced Version)](https://wpgateways.com/products/iats-payments-gateway-gravity-forms/).
+1. [accept.blue Gateway For Gravity Forms (Advanced Version)](https://wpgateways.com/products/accept-blue-gateway-gravity-forms/).
 
 Visit the [plugin page](https://wpgateways.com/gravity-forms-daf-echeck-payments/) for more details. Contributors are welcome to send pull requests via [Bitbucket repository](https://bitbucket.org/gateways/gf-daf-field).
 
@@ -56,15 +50,6 @@ Disclaimer: This plugin is not affiliated with or supported by Gravity Forms. Al
 
 
 == Changelog ==
-
-= 1.0.2 =
-
-* Updated class to make it even more compatible with GF 2.5+
-* Updated plugin compatibility list
-
-= 1.0.1 =
-
-* Made eCheck details more descriptive on entry pages
 
 = 1.0.0 =
 
