@@ -20,7 +20,7 @@ class GF_Field_DAF extends GF_Field_CreditCard {
     /**
      * Returns the field's form editor description.
      *
-     * @since 1.0.2
+     * @since 1.0.0
      *
      * @return string
      */
@@ -33,7 +33,7 @@ class GF_Field_DAF extends GF_Field_CreditCard {
      *
      * This could be an icon url or a gform-icon class.
      *
-     * @since 1.0.2
+     * @since 1.0.0
      *
      * @return string
      */
@@ -116,7 +116,6 @@ class GF_Field_DAF extends GF_Field_CreditCard {
 
 	}
 
-
 	public function get_field_input( $form, $value = '', $entry = null ) {
 		$is_entry_detail = $this->is_entry_detail();
 		$is_form_editor  = $this->is_form_editor();
@@ -128,7 +127,6 @@ class GF_Field_DAF extends GF_Field_CreditCard {
 
 		$disabled_text = $is_form_editor ? "disabled='disabled'" : '';
 		$class_suffix  = $is_entry_detail ? '_admin' : '';
-
 
 		$form_sub_label_placement = rgar( $form, 'subLabelPlacement' );
 		$field_sub_label_placement = $this->subLabelPlacement;

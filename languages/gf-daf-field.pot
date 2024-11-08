@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms Donor-Advised Fund (DAF) Card Field Type\n"
-"POT-Creation-Date: 2024-11-07 21:38+0530\n"
-"PO-Revision-Date: 2024-11-07 21:38+0530\n"
+"POT-Creation-Date: 2024-11-08 19:58+0530\n"
+"PO-Revision-Date: 2024-11-08 19:58+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: class-gf-field-daf.php:17 class-gf-field-daf.php:383 scripts.php:6
+#: class-gf-field-daf.php:17 class-gf-field-daf.php:381 scripts.php:6
 msgid "DAF Card"
 msgstr ""
 
@@ -41,31 +41,31 @@ msgstr ""
 msgid "Invalid DAF card number."
 msgstr ""
 
-#: class-gf-field-daf.php:174 class-gf-field-daf.php:266
+#: class-gf-field-daf.php:172 class-gf-field-daf.php:264
 msgid "Only digits are allowed"
 msgstr ""
 
-#: class-gf-field-daf.php:175 scripts.php:9
+#: class-gf-field-daf.php:173 scripts.php:9
 msgid "Card Number"
 msgstr ""
 
-#: class-gf-field-daf.php:197 scripts.php:11
+#: class-gf-field-daf.php:195 scripts.php:11
 msgid "Expiration Date"
 msgstr ""
 
-#: class-gf-field-daf.php:201 class-gf-field-daf.php:322
+#: class-gf-field-daf.php:199 class-gf-field-daf.php:320
 msgid "Month"
 msgstr ""
 
-#: class-gf-field-daf.php:214 class-gf-field-daf.php:353
+#: class-gf-field-daf.php:212 class-gf-field-daf.php:351
 msgid "Year"
 msgstr ""
 
-#: class-gf-field-daf.php:264 scripts.php:13
+#: class-gf-field-daf.php:262 scripts.php:13
 msgid "Security Code"
 msgstr ""
 
-#: class-gf-field-daf.php:286 scripts.php:15
+#: class-gf-field-daf.php:284 scripts.php:15
 msgid "Cardholder Name"
 msgstr ""
 
@@ -90,7 +90,7 @@ msgid "https://wpgateways.com/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Adds and Donor-Advised Fund (DAF) card field type to Gravity Forms"
+msgid "Adds a Donor-Advised Fund (DAF) card field type to Gravity Forms"
 msgstr ""
 
 #. Author of the plugin/theme
