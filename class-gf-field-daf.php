@@ -25,7 +25,7 @@ class GF_Field_DAF extends GF_Field_CreditCard {
      * @return string
      */
     public function get_form_editor_field_description() {
-        return esc_attr__( 'Allows users to enter DAF card information.', 'gf-daf-field' );
+        return esc_attr__( 'Allows users to enter Donor-Advised Fund (DAF) Card information.', 'gf-daf-field' );
     }
 
     /**
