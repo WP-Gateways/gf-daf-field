@@ -1,0 +1,103 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Donor-Advised Fund (DAF) Card Field "
+"Type\n"
+"POT-Creation-Date: 2024-11-08 18:56-0800\n"
+"PO-Revision-Date: 2024-11-08 19:58+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: class-gf-field-daf.php:17 class-gf-field-daf.php:381 scripts.php:6
+msgid "DAF Card"
+msgstr ""
+
+#: class-gf-field-daf.php:28
+msgid "Allows users to enter Donor-Advised Fund (DAF) Card information."
+msgstr ""
+
+#: class-gf-field-daf.php:78
+msgid "Please enter your DAF card information."
+msgstr ""
+
+#: class-gf-field-daf.php:83
+msgid "Please enter your card's security code."
+msgstr ""
+
+#: class-gf-field-daf.php:86
+msgid "Invalid DAF card number."
+msgstr ""
+
+#: class-gf-field-daf.php:172 class-gf-field-daf.php:264
+msgid "Only digits are allowed"
+msgstr ""
+
+#: class-gf-field-daf.php:173 scripts.php:9
+msgid "Card Number"
+msgstr ""
+
+#: class-gf-field-daf.php:195 scripts.php:11
+msgid "Expiration Date"
+msgstr ""
+
+#: class-gf-field-daf.php:199 class-gf-field-daf.php:320
+msgid "Month"
+msgstr ""
+
+#: class-gf-field-daf.php:212 class-gf-field-daf.php:351
+msgid "Year"
+msgstr ""
+
+#: class-gf-field-daf.php:262 scripts.php:13
+msgid "Security Code"
+msgstr ""
+
+#: class-gf-field-daf.php:284 scripts.php:15
+msgid "Cardholder Name"
+msgstr ""
+
+#: scripts.php:10
+msgid "Expiration Month"
+msgstr ""
+
+#: scripts.php:12
+msgid "Expiration Year"
+msgstr ""
+
+#: scripts.php:14
+msgid "Card Type"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Gravity Forms Donor-Advised Fund (DAF) Card Field Type"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpgateways.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds a Donor-Advised Fund (DAF) card field type to Gravity Forms"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Gateways"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpgateways.com"
+msgstr ""
