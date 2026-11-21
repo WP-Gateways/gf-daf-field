@@ -3,7 +3,7 @@
 Plugin Name: Gravity Forms Donor-Advised Fund (DAF) Card Field Type
 Plugin URI: https://wpgateways.com/
 Description: Adds a Donor-Advised Fund (DAF) card field type to Gravity Forms
-Version: 1.0.0
+Version: 1.0.1
 Author: WP Gateways
 Author URI: https://wpgateways.com
 Text Domain: gf-daf-field
@@ -15,7 +15,7 @@ Requires Plugins: gravityforms
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-define( 'GF_DAF_VERSION', '1.0.0' );
+define( 'GF_DAF_VERSION', '1.0.1' );
 define( 'GF_DAF_PLUGIN_DIR', dirname( __FILE__ ) );
 define( 'GF_DAF_PLUGIN_URL', plugins_url( plugin_basename( GF_DAF_PLUGIN_DIR ) ) );
 define( 'GF_DAF_PLUGIN_PATH', plugin_basename( __FILE__ ) );

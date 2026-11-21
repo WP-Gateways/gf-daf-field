@@ -95,9 +95,12 @@ class GF_Field_DAF extends GF_Field_CreditCard {
 
 		// Process each character starting at the right
 		for ( $i = strlen( $number ) - 1; $i >= 0; $i -- ) {
+			if ( ! is_numeric( $number[ $i ] ) ) {
+				continue;
+			}
 
 			//Multiply current digit by multiplier (1 or 2)
-			$num = $number[ $i ] * $multiplier;
+			$num = (int) $number[ $i ] * $multiplier;
 
 			// If the result is in greater than 9, add 1 to the checksum total
 			if ( $num >= 10 ) {
