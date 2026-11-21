@@ -6,7 +6,7 @@ Plugin URI: https://wpgateways.com
 Author URI: https://wpgateways.com
 Requires at least: 4.0
 Tested up to: 6.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -33,7 +33,7 @@ The plugins currently compatible with the DAF field add-on are (more to be added
 
 1. [accept.blue Gateway For Gravity Forms (Advanced Version)](https://wpgateways.com/products/accept-blue-gateway-gravity-forms/).
 
-Contributors are welcome to send pull requests via [Bitbucket repository](https://bitbucket.org/gateways/gf-daf-field).
+Contributors are welcome to send pull requests via [GitHub repository](https://github.com/WP-Gateways/gf-daf-field).
 
 For custom integration with your WordPress website, please [contact us here](https://wpgateways.com/support/custom-payment-gateway-integration/).
 
@@ -50,6 +50,11 @@ Disclaimer: This plugin is not affiliated with or supported by Gravity Forms. Al
 
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Fixed a fatal error in the card number checksum when the number contains non-numeric characters
+* Contribute link now points to the GitHub repository
 
 = 1.0.0 =
 
